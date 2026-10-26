@@ -11,15 +11,56 @@ section#Contacte{
 
 section#header{
     height: 100px;
-    background-color: rgb(199, 180, 180);
+    background-color: rgb(255, 255, 255);
     outline: 1px solid red;
     position: sticky;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+}
+
+.items{
+    display: flex;
+    list-style : none;
+    gap:24px;
 }
 
 section#Hero{
-    height: 100px;
-    background-color: rgb(59, 71, 211);
+    height: 500px;
+    background-color: #EFE7FE;
     outline: 1px solid red;
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.HeaderTitles{
+    display:flex;
+    flex-direction: column;
+
+
+}
+
+.Notite{
+    background-color: #FFFFFF;
+    color:#7C3AED;
+    margin: 25px 10px;
+    border-radius: 2px;
+    position:absolute;
+}
+.Titlu{
+    margin: 100px 10px;
+    position:absolute;
+}
+
+.descriptieTitlu{
+    position: absolute;
+}
+
+.imagineHero{
+    position : absolute;
+
 }
 
 section#Avantaje{
