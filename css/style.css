@@ -279,9 +279,88 @@ section#Hero{
 }
 
 section#Avantaje{
-    height: 25px;
-    background-color: rgb(108, 46, 46);
-    outline: 1px solid red;
+    height: 452px   ;
+    background-color: rgb(250, 250, 250);
+    outline: 1px solid red;          
+    padding: 40px 30px;
+    text-align: center;
+}
+
+.marginiAvantaje{
+    text-align: center;
+    margin-bottom: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+
+}
+
+.TitluAvantaje{
+    top:50px;
+    color:#7C3AED;
+    font-weight: 700;
+    font-style:bold;
+    font-size:12px;
+
+}
+
+.titluMare{
+    width: 423px;
+    margin: 0 auto;
+    font-weight: 700;
+    font-size: 34px;
+    color: #000000;
+}
+
+.Moto{
+    top:700px;
+    color:#000000;
+    font-weight: 400;
+    font-style:bold;
+    font-size:15px;
+    height: 18px;
+}
+
+.avantajeGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 24px;
+}
+
+.card{
+    border-top: 4px solid #7C3AED;
+    padding: 20px 28px 28px;
+}
+
+.cardSus{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nr{
+    font-size: 40px;
+    font-weight: 700;
+    color: #EFE7FE;
+}
+
+.ico{
+    font-size: 28px;
+}
+
+.cardTitlu{
+    margin: 16px 0 8px;
+    font-size: 20px;
+    font-weight: 700;
+    color: #1E1B2E;
+}
+
+.cardText{
+    margin: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #6B6880;
 }
 
 section#Produse{
