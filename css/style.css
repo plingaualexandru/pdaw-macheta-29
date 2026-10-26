@@ -1,6 +1,7 @@
 body{
     max-width: 960px; 
     margin: 0 auto;
+    font-family: "Urbanist", sans-serif;
 }
 
 section#Contacte{
@@ -10,27 +11,67 @@ section#Contacte{
 }
 
 section#header{
-    height: 100px;
+    height: 70px;
     background-color: rgb(255, 255, 255);
+    border-bottom: 2px solid #3B9AE1;
     outline: 1px solid red;
     position: sticky;
+    top:0;
+    z-index: 10;
+}
+
+section#header nav{
+    height: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 40px;
+    padding: 0 30px;
+}
+
+.zar{
+    font-size: 28px;
+    line-height:1;
 }
 
 .items{
     display: flex;
     list-style : none;
-    gap:24px;
+    gap:28px;
+    margin: 0;
+    padding:0;
+}
+
+.items a{
+    text-decoration: none;
+    color: #3A3750;
+    font-size: 16px;
+    padding-bottom: 6px;
+    border-bottom: 2px solid transparent;
+
+}
+
+.items a:hover{
+    color: #7C3AED;
+}
+
+.items a.activ{
+    color: #7C3AED;
+    font-weight: 600;
+    border-bottom-color: #7C3AED;
+}
+
+.navigare{
+    display: flex;
+    align-items: center;
+    gap: 32px;
 }
 
 section#Hero{
-    height: 500px;
+    height: 547px;
     background-color: #EFE7FE;
     outline: 1px solid red;
     display: flex;
+    position:relative;
     flex-direction: row-reverse;
 
 }
@@ -42,25 +83,199 @@ section#Hero{
 
 }
 
-.Notite{
-    background-color: #FFFFFF;
-    color:#7C3AED;
-    margin: 25px 10px;
-    border-radius: 2px;
+.buttons{
     position:absolute;
+    display:flex;
+    bottom:135px;
+    left: 40px;
+    gap: 16px;
+    font-family: inherit;
+}
+
+#IntraInClub{
+    padding: 12px 20px;
+    width:137px;
+    height:46px;
+    top:473px;
+    left:40px;
+    background-color: #7C3AED;
+    color : #FFFFFF;
+    border : 2px solid #7C3AED;
+    padding : 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+#VeziJocuri{
+    width:137px;
+    height:46px;
+    top:473px;
+    left:40px;
+    background-color: transparent;
+    color : #7C3AED;
+    border-width: 3px;
+    border-color: #7C3AED;
+    padding : 12px 20px;
+    border-radius: 8px;
+    cursor:pointer;
+}
+
+.notatii{
+    position: absolute;
+    bottom: 40px;
+    left: 40px;
+    width: 45%;
+}
+
+.notatii ul{
+    display: flex;
+    gap: 40px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.notatii ul li{
+    display: flex;
+    flex-direction: column;
+}
+
+.Mare{
+    font-size: 32px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.1;
+}
+
+.mic{
+    font-size: 14px;
+    color: #000000;
+}
+
+.logo{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #1E1B2E;
+}
+
+.accent{
+    color: #7C3AED;
+}   
+
+#Rezervare{
+    background-color: #7C3AED;
+    color : #FFFFFF;
+    border : none;
+    padding : 12px 20px;
+    border-radius: 8px;
+    font-size : 16px;
+    font-weight:600;
+    cursor : pointer;
+}
+
+
+.Notite{
+    position: absolute;
+    top: 40px;
+    left: 40px;
+    background-color: #FFFFFF;
+    color: #7C3AED;
+    padding: 6px 12px;
+    border-radius: 15px;
 }
 .Titlu{
-    margin: 100px 10px;
     position:absolute;
+    top : 90px;
+    left: 40px;
+    font-weight: 700;
+    width:45%;
+    font-size: 44px ;
+    margin:0;
+
 }
 
 .descriptieTitlu{
     position: absolute;
+    top:220px;
+    left: 40px;
+    width: 45%;
+    font-weight: 400;
+    margin:0;
 }
 
 .imagineHero{
-    position : absolute;
+    position: absolute;
+    top: 80px;
+    right: 50px;
+    width: 40%; 
+    height: 400px;
+    object-fit: cover;
 
+}
+
+.MesajPlutitor1{
+    position: absolute;
+    background-color: white;
+    bottom:125px;
+    border-radius: 25px;
+    right:250px;
+    display: flex;
+    width: 197px;
+    padding: 10px 20px;
+
+}
+
+.MesajPlutitor1 ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.MesajPlutitor1 ul li{
+    display: flex;
+    flex-direction : column;
+}
+
+.MesajPlutitor2{
+    position: absolute;
+    background-color: white;
+    bottom:375px;
+    border-radius: 25px;
+    right:25px;
+    display: flex;
+    width: 197px;
+    padding: 10px 20px;
+
+}
+
+.MesajPlutitor2 ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.MesajPlutitor2 ul li{
+    display: flex;
+    flex-direction : column;
+}
+
+.MareMesaj{
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    line-height: 1.1;
+}
+
+.micMesaj{
+    font-size: 14px;
+    color: #000000;
 }
 
 section#Avantaje{
