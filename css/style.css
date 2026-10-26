@@ -12,7 +12,6 @@ section#Contacte{
 section#header{
     height: 70px;
     background-color: rgb(255, 255, 255);
-    border-bottom: 2px solid #3B9AE1;
     position: sticky;
     top:0;
     z-index: 10;
@@ -641,16 +640,143 @@ section#Galerie{
 
 
 section#Oferta{
-    height: 25px;
-    background-color: rgb(95, 82, 82);
-    outline: 1px solid red;
+    background-color: #FFFFFF;
+    padding: 50px 40px;
+    text-align: center;
+    height:694px;
 }
 
-section#Abonare{
-    height: 25px;
-    background-color: rgb(37, 30, 30);
-    outline: 1px solid red;
+.TitluAbonare{
+    color: #7C3AED;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
 }
+
+.titluMareAbonare{
+    font-size: 34px;
+    font-weight: 700;
+    color: #1E1B2E;
+    margin-bottom: 10px;
+}
+
+.MotoAbonare{
+    font-size: 16px;
+    color: #6B6880;
+    margin-bottom: 50px;
+}
+
+.abonareGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    align-items: center;
+}
+
+.plan{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: 405px;
+    padding: 28px 24px;
+    background-color: #FFFFFF;
+    border: 1px solid #E5E7EB;
+    border-radius: 12px;
+}
+
+.planMijloc{
+    height: 435px;
+    background-color: #1B1033;
+    border-color: #1B1033;
+    color: #FFFFFF;
+}
+
+.badgeAbonare{
+    position: absolute;
+    top: -14px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #D6246E;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: 700;
+    padding: 6px 14px;
+    border-radius: 15px;
+    white-space: nowrap;
+}
+
+.planNume{
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.planPret{
+    margin: 12px 0 24px;
+}
+
+.suma{
+    font-size: 44px;
+    font-weight: 700;
+}
+
+.luna{
+    font-size: 14px;
+    color: #6B6880;
+    margin-left: 8px;
+}
+
+.planMijloc .luna{
+    color: #CFC8E0;
+}
+
+.planLista{
+    flex: 1; 
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.planLista li{
+    padding: 8px 0;
+    font-size: 15px;
+    border-bottom: 1px dashed #E5E7EB;
+}
+
+.planLista li::before{
+    content: "✓";
+    color: #7C3AED;
+    font-weight: 700;
+    margin-right: 10px;
+}
+
+.planMijloc .planLista li{
+    border-bottom-color: rgba(255, 255, 255, 0.25);
+}
+
+.planMijloc .planLista li::before{
+    color: #D6246E;
+}
+
+.btnAdera{
+    align-self: center;
+    padding: 12px 28px;
+    background-color: transparent;
+    color: #7C3AED;
+    border: 2px solid #7C3AED;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.planMijloc .btnAdera{
+    background-color: #D6246E;
+    border-color: #D6246E;
+    color: #FFFFFF;
+}
+
 
 section#footer{
     height: 25px;
