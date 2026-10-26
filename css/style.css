@@ -478,12 +478,6 @@ section#Recenzii{
     text-align: center;
 }
 
-section#Galerie{
-    height: 25px;
-    background-color: rgb(159, 67, 67);
-    outline: 1px solid red;
-}
-
 .TitluRecenzii{
     color: #7C3AED;
     font-size: 12px;
@@ -540,7 +534,7 @@ section#Galerie{
     display: flex;
     justify-content: center;
     align-items: center;
-     gap: 12px;
+    gap: 12px;
     margin-top: 32px;
 }
 
@@ -589,6 +583,63 @@ section#Galerie{
     background-color: #7C3AED;
 }
 
+section#Galerie{
+    background-color: #FAF8FF;
+    padding: 40px 30px 50px;
+    text-align: center;
+    height: 560px;
+}
+
+.TitluGalerie{
+    color: #7C3AED;
+    font-size: 12px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.titluMareGalerie{
+    font-size: 34px;
+    font-weight: 700;
+    color: #1E1B2E;
+    margin-bottom: 30px;
+}
+
+.galerieGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 167px 167px;
+    gap: 16px;
+}
+
+.poza{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 12px;
+    display: block;
+}
+
+.poza1{
+    grid-column: 1;
+    grid-row: 1 / 3; 
+}
+
+.poza2{
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.poza3{
+    grid-column: 2;
+    grid-row: 2;
+}
+
+.poza4{
+    grid-column: 3;
+    grid-row: 1 / 3;
+}
+
+
 section#Oferta{
     height: 25px;
     background-color: rgb(95, 82, 82);
@@ -604,11 +655,5 @@ section#Abonare{
 section#footer{
     height: 25px;
     background-color: rgb(0, 0, 0);
-    outline: 1px solid red;
-}
-
-section#ButonPlutitor{
-    height: 25px;
-    background-color: rgb(123, 121, 121);
     outline: 1px solid red;
 }
