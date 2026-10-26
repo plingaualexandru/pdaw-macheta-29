@@ -1,0 +1,72 @@
+body{
+    max-width: 960px; 
+    margin: 0 auto;
+}
+
+section#Contacte{
+    height: 25px;
+    background-color: rgb(11, 27, 32);
+    outline: 1px solid red;
+}
+
+section#header{
+    height: 100px;
+    background-color: rgb(199, 180, 180);
+    outline: 1px solid red;
+    position: sticky;
+}
+
+section#Hero{
+    height: 100px;
+    background-color: rgb(59, 71, 211);
+    outline: 1px solid red;
+}
+
+section#Avantaje{
+    height: 25px;
+    background-color: rgb(108, 46, 46);
+    outline: 1px solid red;
+}
+
+section#Produse{
+    height: 25px;
+    background-color: rgb(26, 144, 10);
+    outline: 1px solid red;
+}
+
+section#Recenzii{
+    height: 25px;
+    background-color: rgb(165, 31, 31);
+    outline: 1px solid red;
+}
+
+section#Galerie{
+    height: 25px;
+    background-color: rgb(159, 67, 67);
+    outline: 1px solid red;
+}
+
+
+section#Oferta{
+    height: 25px;
+    background-color: rgb(95, 82, 82);
+    outline: 1px solid red;
+}
+
+section#Abonare{
+    height: 25px;
+    background-color: rgb(37, 30, 30);
+    outline: 1px solid red;
+}
+
+section#footer{
+    height: 25px;
+    background-color: rgb(0, 0, 0);
+    outline: 1px solid red;
+}
+
+section#ButonPlutitor{
+    height: 25px;
+    background-color: rgb(123, 121, 121);
+    outline: 1px solid red;
+}
