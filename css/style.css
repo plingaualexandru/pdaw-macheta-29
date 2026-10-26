@@ -177,6 +177,8 @@ section#Hero{
     position: absolute;
     top: 40px;
     left: 40px;
+    font-size: 13px;
+    font-width: 700;
     background-color: #FFFFFF;
     color: #7C3AED;
     padding: 6px 12px;
@@ -940,3 +942,45 @@ section#Contacte{
 .contacteDreapta{
     color:#CBD5E1;
 }
+
+.btnCos{
+    position: fixed;
+    bottom: 30px;
+    right: 500px;
+    z-index: 100;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #D6246E;
+    box-shadow: 0 6px 20px rgba(214, 36, 110, 0.4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.btnCos:hover{
+    background-color: #B91D5D;
+}
+
+.iconCos{
+    font-size: 26px;
+    line-height: 1;
+}
+
+.insignaCos{
+    position: absolute;
+    top: -4px;
+    right: -4px;
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    color: #E11D48;
+    font-size: 13px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
