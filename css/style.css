@@ -834,7 +834,109 @@ section#Abonare{
 }
 
 section#footer{
-    height: 25px;
-    background-color: rgb(0, 0, 0);
-    outline: 1px solid red;
+    background-color: #1B1033;
+    padding: 50px 40px 20px;
+}
+
+.footerGrid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 40px;
+}
+
+.logoFooter{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+    margin-bottom: 16px;
+}
+
+.accentFooter{
+    color: #D6246E;
+}
+
+.footerDesc{
+    font-size: 15px;
+    line-height: 1.6;
+    color: #B8B2CC;
+    max-width: 280px;
+    margin-bottom: 28px;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+
+.cerc{
+    width: 36px;
+    height: 36px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 255, 0.12);
+    color: #FFFFFF;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.cerc:hover{
+    background-color: #7C3AED;
+}
+
+.footerCol{
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footerTitlu{
+    font-size: 16px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 4px;
+}
+
+.footerLink{
+    font-size: 15px;
+    color: #B8B2CC;
+    text-decoration: none;
+}
+
+a.footerLink:hover{
+    color: #FFFFFF;
+}
+
+.footerJos{
+    margin-top: 40px;
+    padding-top: 20px;
+    border-top: 1px solid rgba(255, 255, 255, 0.25);
+    text-align: center;
+    font-size: 14px;
+    color: #B8B2CC;
+}
+
+section#Contacte{
+    height: 36px;
+    background-color: #1B1033;
+    padding: 0 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: #FFFFFF;
+}
+
+.contacteStanga{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.contacteDreapta{
+    color:#CBD5E1;
 }
