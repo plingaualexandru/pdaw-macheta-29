@@ -777,6 +777,61 @@ section#Oferta{
     color: #FFFFFF;
 }
 
+section#Abonare{
+    background-color: #7C3AED;
+    padding: 40px 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+}
+
+.titluAbonare{
+    font-size: 28px;
+    font-weight: 700;
+    color: #FFFFFF;
+    margin-bottom: 6px;
+}
+
+.MotoAbonare{
+    font-size: 15px;
+    color: #FFFFFF;
+}
+
+.formAbonare{
+    display: flex;
+    align-items: center;
+    width: 437px;
+    background-color: #FFFFFF;
+    padding: 6px;
+    border-radius: 10px;
+}
+
+.inputEmail{
+    flex: 1;
+    outline: none;
+    padding: 12px 16px;
+    font-size: 15px;
+    font-family: inherit;
+    color: #1E1B2E;
+    background-color: transparent;
+}
+
+.btnAbonare{
+    padding: 12px 20px;
+    background-color: #D6246E;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 8px;
+    font-size: 15px;
+    font-weight: 700;
+    font-family: inherit;
+    cursor: pointer;
+}
+
+.btnAbonare:hover{
+    background-color: #B91D5D;
+}
 
 section#footer{
     height: 25px;
