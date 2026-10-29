@@ -83,7 +83,7 @@ section#Hero {
     position: absolute;
     display: flex;
     bottom: 135px;
-    left: 40px;
+    right: 180px;
     gap: 16px;
     font-family: inherit;
 }
@@ -119,7 +119,7 @@ section#Hero {
 .notatii {
     position: absolute;
     bottom: 40px;
-    left: 40px;
+    right: 40px;
     width: 45%;
 }
 
@@ -176,7 +176,7 @@ section#Hero {
 .Notite {
     position: absolute;
     top: 40px;
-    left: 40px;
+    right: 40px;
     font-size: 13px;
     font-width: 700;
     background-color: #FFFFFF;
@@ -188,7 +188,7 @@ section#Hero {
 .Titlu {
     position: absolute;
     top: 90px;
-    left: 40px;
+    right: 40px;
     font-weight: 700;
     width: 45%;
     font-size: 44px;
@@ -199,7 +199,7 @@ section#Hero {
 .descriptieTitlu {
     position: absolute;
     top: 220px;
-    left: 40px;
+    right: 40px;
     width: 45%;
     font-weight: 400;
     margin: 0;
@@ -208,7 +208,7 @@ section#Hero {
 .imagineHero {
     position: absolute;
     top: 80px;
-    right: 50px;
+    left: 50px;
     width: 40%;
     height: 400px;
     object-fit: cover;
@@ -220,10 +220,11 @@ section#Hero {
     background-color: white;
     bottom: 125px;
     border-radius: 25px;
-    right: 250px;
+    left: 250px;
     display: flex;
     width: 197px;
     padding: 10px 20px;
+    z-index:100;
 
 }
 
@@ -245,10 +246,11 @@ section#Hero {
     background-color: white;
     bottom: 375px;
     border-radius: 25px;
-    right: 25px;
+    left: 25px;
     display: flex;
     width: 197px;
     padding: 10px 20px;
+    z-index: 100;
 
 }
 
@@ -362,10 +364,11 @@ section#Avantaje {
 }
 
 section#Produse {
-    height: 700px;
+    height: 1000px;
     padding: 50px 40px;
     text-align: center;
     background-color: #FAF8FE;
+
 }
 
 .TitluProduse {
@@ -390,10 +393,21 @@ section#Produse {
 
 .produseGrid {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     gap: 24px;
     text-align: left;
+    height:400px;
 }
+
+.ProduseleGrid{
+    display:flex;
+    flex-direction: column;
+    height: 1000px;
+    gap:50px;
+
+}
+
+
 
 .produs {
     position: relative;
@@ -405,7 +419,7 @@ section#Produse {
 
 .imagineProdus {
     width: 100%;
-    height: 100%;
+    height: 50%;
     object-fit: cover;
     display: block;
 }
@@ -423,9 +437,12 @@ section#Produse {
 }
 
 .produsInfo {
+    position: absolute;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     padding: 24px;
+    flex-wrap:wrap;
+    top: 200px;
 }
 
 .stele {
